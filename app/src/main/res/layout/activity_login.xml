@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12274E"
+    android:id="@+id/parent"
+    tools:context=".loginActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="50dp"
+        app:cardMaxElevation="50dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        android:id="@+id/header"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:text="Welcome to Java.Bank "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place Where Big Transactions Take place"
+            android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="20dp"
+
+        app:cardMaxElevation="50dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_below="@id/header"
+        android:id="@+id/form"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:drawableStart="@drawable/user"
+                android:drawablePadding="5dp"
+                android:layout_marginTop="150dp"
+                android:id="@+id/userName"
+                android:padding="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone number"
+                android:drawableStart="@drawable/phone"
+                android:drawablePadding="5dp"
+                android:layout_marginTop="50dp"
+                android:id="@+id/userPhone"
+                android:padding="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password to secure your account"
+                android:drawableStart="@drawable/password"
+                android:drawablePadding="15dp"
+                android:layout_marginTop="50dp"
+                android:id="@+id/userPassword"
+                android:padding="10dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="#00ffffff"
+                android:id="@+id/create_account"
+                android:text="@string/create_account"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

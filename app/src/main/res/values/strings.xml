@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JavaBankAndroid</string>
+    <string name="create_account"><u><b><i>Create Account</i></b></u></string>
+</resources>

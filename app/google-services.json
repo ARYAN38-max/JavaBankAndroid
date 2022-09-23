@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "271925645248",
+    "project_id": "javabankandroid",
+    "storage_bucket": "javabankandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271925645248:android:7f22fac5ca50dfe6c34225",
+        "android_client_info": {
+          "package_name": "com.example.javabankandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271925645248-6dtsdilulf4dpkj8kg2roenorf3iatob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYibud-KeZ5d34eSxlxpeSd_GHm83coX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271925645248-6dtsdilulf4dpkj8kg2roenorf3iatob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
